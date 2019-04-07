@@ -1,6 +1,6 @@
 {
   "name": "markdown-stream-utils",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "Utility functions for processing markdown files using object mode streams.",
   "main": "index.js",
   "scripts": {
@@ -8,18 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mixu/markdown-stream-utils"
+    "url": "https://github.com/direktspeed/node-markdown-stream-utils"
   },
   "keywords": [
     "markdown",
     "stream"
   ],
   "author": "Mikito Takada <mixu@mixu.net> (http://mixu.net/)",
+  "maintainer": "@direktspeed on github.com",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/mixu/markdown-stream-utils/issues"
+    "url": "https://github.com/direktspeed/node-markdown-stream-utils/issues"
   },
-  "homepage": "https://github.com/mixu/markdown-stream-utils",
+  "homepage": "https://github.com/direktspeed/markdown-stream-utils",
   "dependencies": {
     "highlight.js": "~9.9.0",
     "js-yaml": "^3.13.0",
