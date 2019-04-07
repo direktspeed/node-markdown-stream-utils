@@ -86,6 +86,8 @@ describe('highlighter test', function() {
       }
       return false;
     }, function(results) {
+      console.log(results)
+      process.exit(0)
       results.sort(function(a, b) { return a.path.localeCompare(b.path); });
       assert.equal(results[0].contents, [
         '<h1 id="test">Test</h1>',

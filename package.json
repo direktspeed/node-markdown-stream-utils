@@ -1,5 +1,5 @@
 {
-  "name": "markdown-stream-utils",
+  "name": "@direktspeed/markdown-stream-utils",
   "version": "1.5.1",
   "description": "Utility functions for processing markdown files using object mode streams.",
   "main": "index.js",
@@ -25,6 +25,7 @@
     "highlight.js": "~9.9.0",
     "js-yaml": "^3.13.0",
     "marked": "~0.6.2",
+    "mocha": "^6.1.0",
     "through2": "~0.6.3",
     "xtend": "^4.0.0"
   },
